@@ -6,7 +6,7 @@
     <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="/public/css/app.css">
-    <script language="JavaScript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script language="JavaScript" src="/public/bower_components/jquery/dist/jquery.min.js"></script>
     <script language="JavaScript" src="/public/js/app.js"></script>
 </head>
 <body>
