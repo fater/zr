@@ -1,0 +1,83 @@
+body {
+  background-color: #F3F3F3;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+  margin: 90px 0 90px 0px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: #000;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.form {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: rgba(50, 50, 50, 0.95);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.form .content {
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: left;
+  padding: 0 10px;
+}
+.form .content textarea {
+  width: 100%;
+  height: 55px;
+  margin: 5px 0;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  padding: 0 20px;
+}
+.container > .template {
+  margin-bottom: 15px;
+}
+.container .template {
+  display: block;
+  padding: 15px 15px 0 15px;
+}
+.container .template .image {
+  display: table-cell;
+  width: 80px;
+  vert-align: top;
+}
+.container .template .image img {
+  width: 100%;
+}
+.container .template .content {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 20px;
+  font-size: 23px;
+  color: #555555;
+}
+.container .template .attachment {
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+/*# sourceMappingURL=app.css.map */
