@@ -1,0 +1,18 @@
+{
+  "name": "zr",
+  "description": "ООО \"Издательство \"За рулем\"",
+  "main": "index.js",
+  "authors": [
+    "'СChaikin <'fat_hack@rambler.ru'>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/fater/zr",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
