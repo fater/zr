@@ -19,7 +19,7 @@
             <div class="col1">
                 <img src="/public/img/avatar.png" alt="">
                 <a href="#">Константин</a>
-                <span class="pointer"><span>3</span></span>
+                <span class="pointer">3</span>
             </div>
             <div class="col2">
                 <img src="/public/img/logo.png" alt="">

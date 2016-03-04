@@ -58,29 +58,12 @@ body {
   background-color: #e40025;
   color: #ffffff;
   font-size: 12px;
-  font-style: italic;
   position: relative;
   margin-left: 5px;
-}
-.page .head .section1 .col1 .pointer:before {
-  border-bottom: 14px solid #e40025;
-  border-left: 3px solid transparent;
-  content: "";
-  position: absolute;
-  left: -3px;
-  top: 0;
-}
-.page .head .section1 .col1 .pointer:after {
-  border-right: 3px solid transparent;
-  border-top: 17px solid #e40025;
-  content: "";
-  position: absolute;
-  top: 0;
-}
-.page .head .section1 .col1 .pointer > span {
-  margin: 2px 3px 2px 1px;
   font-weight: bold;
-  vertical-align: top;
+  padding: 1px 3px;
+  transform: skew(-13deg);
+  display: inline-block;
 }
 .page .head .section1 .col2 {
   text-align: center;
@@ -290,7 +273,7 @@ body {
   text-align: right;
   display: block;
   color: #333;
-  text-shadow: 0px 0px 3px white;
+  text-shadow: 0 0 3px white;
 }
 .page .promo .section1 .col2 .text2 {
   font-size: 54px;
@@ -299,7 +282,7 @@ body {
   text-align: left;
   color: #e45535;
   display: block;
-  text-shadow: 0px 0px 3px white;
+  text-shadow: 0 0 3px white;
 }
 .page .promo .section1 .col2 .text3 {
   font-size: 34px;
@@ -307,7 +290,7 @@ body {
   text-align: left;
   color: #e45535;
   display: block;
-  text-shadow: 0px 0px 3px white;
+  text-shadow: 0 0 3px white;
   line-height: 23px;
 }
 .page .promo .section1 .col3 {

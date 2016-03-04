@@ -75,32 +75,12 @@ body {
           background-color: #e40025;
           color: #ffffff;
           font-size: 12px;
-          font-style: italic;
           position: relative;
           margin-left: 5px;
-
-          &:before {
-            border-bottom: 14px solid #e40025;
-            border-left: 3px solid transparent;
-            content: "";
-            position: absolute;
-            left: -3px;
-            top: 0;
-          }
-
-          &:after {
-            border-right: 3px solid transparent;
-            border-top: 17px solid #e40025;
-            content: "";
-            position: absolute;
-            top: 0;
-          }
-
-          & > span {
-            margin: 2px 3px 2px 1px;
-            font-weight: bold;
-            vertical-align: top;
-          }
+          font-weight: bold;
+          padding: 1px 3px;
+          transform: skew(-13deg);
+          display: inline-block;
         }
       }
 
@@ -348,7 +328,7 @@ body {
           text-align: right;
           display: block;
           color: #333;
-          text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+          text-shadow: 0 0 3px rgba(255, 255, 255, 1);
         }
 
         .text2 {
@@ -358,7 +338,7 @@ body {
           text-align: left;
           color: $promo-color;
           display: block;
-          text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+          text-shadow: 0 0 3px rgba(255, 255, 255, 1);
         }
 
         .text3 {
@@ -367,7 +347,7 @@ body {
           text-align: left;
           color: $promo-color;
           display: block;
-          text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+          text-shadow: 0 0 3px rgba(255, 255, 255, 1);
           line-height: 23px;
         }
       }
@@ -588,10 +568,6 @@ body {
     }
   }
 }
-
-
-
-
 
 .tooltip {
   display: inline;
