@@ -7,7 +7,8 @@ module.exports = function (grunt) {
                 },
                 files: {
                     'public/css/app.css': 'sass/app.scss',
-                    'public/css/promo.css': 'sass/promo.scss'
+                    'public/css/promo.css': 'sass/promo.scss',
+                    'public/css/gallery.css': 'sass/gallery.scss'
                 }
             }
         }

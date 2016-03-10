@@ -1,0 +1,23 @@
+{namespace galleryTemplate}
+
+/**
+ * @param images
+ */
+{template .listImages}
+<div class="gallery_small">
+    {foreach $item in $images}
+        <div class="gallery_item">
+            {call .imageUrl data="all"}
+                {param item: $item /}
+            {/call}
+        </div>
+    {/foreach}
+</div>
+{/template}
+
+/**
+ * @param item
+ */
+{template .imageUrl}
+<img src="/public/img/thumb/{$item}.jpg" />
+{/template}

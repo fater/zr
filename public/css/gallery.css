@@ -1,0 +1,15 @@
+body {
+  background-color: #FFFFFF;
+  font-family: Arial, SansSerif;
+  margin: 0;
+}
+
+.gallery_small {
+  display: table;
+}
+.gallery_small .gallery_item {
+  display: table-cell;
+  padding: 5px 5px 0 0;
+}
+
+/*# sourceMappingURL=gallery.css.map */
