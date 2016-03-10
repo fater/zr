@@ -18,10 +18,10 @@
 
     goog.require('goog.dom');
     goog.require('goog.events');
-//    goog.require('goog.events.listen');
+    goog.require('goog.events.EventType');
     goog.require('goog.ui.DragDropDetector.EventType');
 
-    goog.events.listen(goog.dom.$('img'), 'click',
+    goog.events.listen(goog.dom.$dom('img'), 'click',
         function (e) {
             var str = 'Detected ' + e.getUrl();
             if (e.getPosition) {
